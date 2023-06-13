@@ -4,3 +4,4 @@ import courses from "./data.json";
 export async function GET(request: any) {
   return NextResponse.json(courses);
 };
+
